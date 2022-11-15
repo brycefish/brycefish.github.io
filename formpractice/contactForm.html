@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Bryce Fish
+     Nov 14, 2022 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Bryce Fish" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Bryce Fish web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form name="example-form" action="mailto:brycefish@my.cwi.edu" enctype="text/plain" method="POST">
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <!-- Company Select Box, page 97 -->
+            <div>
+                <label for="companyName">Company: </label>
+                <br>
+                <input type="text" name="companyName" id="companyName" placeholder="Big Tech Company" required />
+            </div>
+
+            <!-- Person to Contact Select Box, page 97 -->
+            <div>
+                <label for="contactSelect">Person to contact:</label>
+                <br>
+                <input type="text" name="contactSelect" id="contactSelect" placeholder="Mary Wright" required />
+            </div>
+
+            <!-- Email, textbook file rental.html -->	
+            <!--Video 9.9 Building and Testing a Valid Form-->	
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="mwright@bigtech.com" required />
+            </div>
+
+            <!-- Phone, textbook file rental.html-->
+            <!--Video 9.9 Building and Testing a Valid Form-->
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="208-111-1111" required />
+            </div>
+        </fieldset>
+
+        <!-- Group Fields Together, page 104 -->
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            <!-- Select Box, page 98 -->
+            <div>
+                <label for="positionType">Type of Position:</label>
+                <select name="positionType" id="positionType" required>
+                    <option value="internship">Internship</option>
+                    <option value="fullTime">Full-Time</option>
+                    <option value="flex">Flex</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons, page 99 -->
+            <div>
+                <input type="radio" name="referral" id="linkedin" value="linkedin" />
+                <label for="linkedin">LinkedIn</label>
+                <input type="radio" name="referral" id="jobfair" value="jobfair" />
+                <label for="linkedin">Job Fair</label>
+                <input type="radio" name="corporatePartner" id="corporatePartner" value="corporatePartner" />
+                <label for="linkedin">CWI Corporate Partner</label>
+            </div>
+
+            <!-- Text Area, textbook file code-9-1.html -->	
+            <div>
+                <textarea id="descriptionText" name="descriptionText" rows="10" cols="80">We will give you a tour of our facility and ask you to fill out some paperwork. You will meet with an interview team of 3 people. If you are selected for the next round of interviews, that interview will be done by the owner of the company</textarea>
+            </div>
+        </fieldset>
+		<input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
