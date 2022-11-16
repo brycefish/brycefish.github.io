@@ -1,0 +1,13 @@
+/* Practice CustomFonts Style Sheet- By Bryce */
+
+@font-face {
+    font-family: 'chunk-five';
+    src: url('../fonts/chunk_five_print-webfont.woff') format('woff'),
+         url('../fonts/chunk_five_print-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'chunk-five', "Times New Roman", Arial;
+}
