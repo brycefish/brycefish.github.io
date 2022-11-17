@@ -17,7 +17,7 @@
     }
 
     .expBox.one {
-        background-image: url(/image/keyboard.jpg);
+        background-image: url(/../image/keyboard.jpg);
         background-size: contain;
         float: left;
         margin-left: 30%;
@@ -25,7 +25,7 @@
         text-align: center;
     }
     .expBox.two {
-        background-image: url(image/library.jpg);
+        background-image: url(/..image/library.jpg);
         background-size: contain;
         margin-left: 10%;
         clear: left;
@@ -33,7 +33,7 @@
     }
 
     .expBox.three {
-        background-image: url(../image/music.jpg);
+        background-image: url(/../image/music.jpg);
         float: left;
         margin-left: 20px;
 
