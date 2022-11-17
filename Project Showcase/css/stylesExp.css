@@ -1,0 +1,63 @@
+/* css used to style experience.html */
+/*   display project examples        */
+
+    .expSection {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .expBox {
+        background-color: rgba(167, 179, 183, 0.473);
+        background-size: contain;
+        border: 5px solid #000000;
+        float: left;
+        text-align: center;
+        width: 35%;
+        color: yellow;
+    }
+
+    .expBox.one {
+        background-image: url(/image/keyboard.jpg);
+        background-size: contain;
+        float: left;
+        margin-left: 30%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .expBox.two {
+        background-image: url(/image/library.jpg);
+        background-size: contain;
+        margin-left: 10%;
+        clear: left;
+        float: left;
+    }
+
+    .expBox.three {
+        background-image: url(/image/music.jpg);
+        float: left;
+        margin-left: 20px;
+
+    }
+    .exptitle{
+        color: white;
+
+    }
+    .expBox a.button{
+        background-color: aquamarine;
+    }
+
+    footer {
+        clear: left;
+    }
+
+    /*
+      background-image: url(/image/HopeSmall.png);
+    
+    */
+    
+
+
+    
+
+
+    
