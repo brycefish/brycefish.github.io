@@ -1,0 +1,66 @@
+
+
+    .expSection {
+        display: flex; 
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    section > div {
+        background-color: rgba(167, 179, 183, 0.473);
+        background-size: contain;
+        border: 5px solid #000000;
+        text-align: center;
+        color: yellow;
+        margin: 5px;
+        width: 400px;
+    }
+
+    .expBox.one {
+        background-image: url(../image/keyboard.jpg);
+        background-size: contain;
+
+    }
+    .expBox.two {
+        background-image: url(../image/library.jpg);
+        background-size: contain;
+
+    }
+
+    .expBox.three {
+        background-image: url(../image/music.jpg);
+        background-size: contain;
+    }
+    .exptitle{
+        color: white;
+
+    }
+    .expBox a.button{
+        background-color: aquamarine;
+    }
+
+    footer {
+        clear: left;
+    }
+    table, td, th{
+        border-style: solid;
+        border-color: grey;
+    }
+    thead{
+        background-color: olive;
+    }
+        
+    
+    .skillsTable{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 5%;
+
+    }
+  
+
+
+    
+
+
+    
