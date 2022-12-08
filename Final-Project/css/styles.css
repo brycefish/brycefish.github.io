@@ -68,7 +68,7 @@ footer{
 }
 input:focus {
     font-size: 1.2;
-    padding: 2px;
+    padding: 5px;
     border: 2px solid;
     outline: none;
 }
